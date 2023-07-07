@@ -1,0 +1,6 @@
+		MOV		R1, #0x30 ;copy value 0x30 and store into R1
+		MOV		R2, #0x40 ; copy value 0x40 and store into R2
+		
+		MOV		R3, #0x6000 ; copy value 0x6000 and store into R3
+		STR		R1, [R3] ;store the value in R1 to R3 memory
+		STR		R2, [R3,#4] ;store the value in R1 to R3 and add 4 memory
